@@ -1,0 +1,111 @@
+@media (max-width: 992px) {
+    .promo {
+        &__wrapper {
+            display: block;
+            text-align: center;
+            button {
+                margin-top: 50px;
+            }
+        }
+        &__subheader {
+            margin-top: 25px;
+        }
+        &__icons {
+            display: flex;
+            margin: 35px auto 0;
+        }
+        &__link {
+            margin-top: 20px;
+        }
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: block;
+        &__logo img {
+            display: none;
+        }
+        &__official {
+            font-size: 35px;
+        }
+        &__official span{
+            font-size: 32px;
+        }
+        &__contacts {
+            display: block;
+            text-align: center;
+            margin-top: 28px;
+        }
+        &__phone {
+            display: inline-block;
+            margin-right: 25px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            display: block;
+            text-align: center;
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 26px;
+        }
+        &__icons {
+            display: flex;
+            margin: 40px auto 0;
+        }
+        button {
+            margin-top: 50px;
+        }
+        &__link {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        &__official {
+            font-size: 20px;
+        }
+        &__official span{
+            font-size: 17px;
+        }
+        &__contacts {
+            margin-top: 15px;
+        }
+        &__phone {
+            display: block;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 0;
+        }
+    }
+
+    .promo {
+        &__icons {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon + &__icon{
+            margin-top: 25px;
+        }
+        &__icon img {
+            margin-bottom: 5px;
+        }
+        .button_main {
+            width: 265px;
+        }
+    }
+}
