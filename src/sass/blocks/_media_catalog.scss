@@ -7,6 +7,7 @@
         &-item {
             width: 240px;
             padding: 0 4px;
+            margin: 5px 5px;
 
             &__old-price {
                 font-size: 12px;
@@ -42,7 +43,6 @@
 @media (max-width: 576px) {
     .catalog {
         &__tabs {
-            // padding: 46px 0 57px;
             flex-wrap: wrap;
         }
 
