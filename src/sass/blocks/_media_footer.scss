@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+    .footer {
+        &__info {
+            width: 80%;
+            max-height: 270px;
+            padding: 40px 30px 20px;
+        }
+
+        &__addr, &__phone {
+            font-size: 15px;
+        }
+    }
+}
