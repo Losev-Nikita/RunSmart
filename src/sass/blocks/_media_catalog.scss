@@ -5,7 +5,6 @@
         }
 
         &-item {
-            width: 240px;
             padding: 0 4px;
             margin: 5px 5px;
 
@@ -37,11 +36,24 @@
                 box-shadow: 3px 3px 8px #c70101;
             }
         }
+
+        &__content {
+            justify-content: center;
+        }
     }
 }
 
 @media (max-width: 576px) {
     .catalog {
+
+        &-item__inner__back {
+            padding-top: 10px;
+        }
+
+        &-item__inner_active {
+            margin: 10px 0;
+        }
+
         &__tabs {
             flex-wrap: wrap;
         }

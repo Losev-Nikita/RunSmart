@@ -33,4 +33,13 @@
     &__item+&__item {
         margin-left: 65px;
     }
+
+    &__icon {
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+            &::hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
